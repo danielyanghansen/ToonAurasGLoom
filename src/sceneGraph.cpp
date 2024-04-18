@@ -1,5 +1,5 @@
 #include "sceneGraph.hpp"
-#include <iostream>
+#include "config.hpp"
 
 SceneNode* createSceneNode() {
 	return new SceneNode();

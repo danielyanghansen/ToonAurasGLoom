@@ -2,11 +2,8 @@
 #define PROGRAM_HPP
 #pragma once
 
+#include "config.hpp"
 
-// System headers
-#include <GLFW/glfw3.h>
-#include <glad/glad.h>
-#include <string>
 #include <utilities/window.hpp>
 
 
