@@ -132,4 +132,4 @@ target_link_libraries (${PROJECT_NAME}
                        fmt::fmt
                        ${GLFW_LIBRARIES}
                        ${GLAD_LIBRARIES})
-set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT glowbox)
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ToonAuras)

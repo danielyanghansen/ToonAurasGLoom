@@ -1,4 +1,4 @@
-#version 430 core
+#version 450 core
 
 in layout(location = 0) vec3 position;
 in layout(location = 1) vec3 normal_in;
@@ -8,6 +8,7 @@ uniform layout(location = 3) mat4 MVP;
 
 out layout(location = 0) vec3 normal_out;
 out layout(location = 1) vec2 textureCoordinates_out;
+out layout(location = 2) vec3 forceFieldAngle_out;
 
 void main()
 {

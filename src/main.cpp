@@ -66,7 +66,7 @@ GLFWwindow* initialise()
 
 int main(int argc, const char* argb[])
 {
-    arrrgh::parser parser("glowbox", "Small breakout like juggling game");
+    arrrgh::parser parser("ToonAuras", "Small breakout like juggling game");
     const auto& showHelp       = parser.add<bool>("help", "Show this help message.", 'h', arrrgh::Optional, false);
     const auto& enableMusic    = parser.add<bool>("enable-music", "Play background music while the game is playing", 'm', arrrgh::Optional, false);
     const auto& enableAutoplay = parser.add<bool>("autoplay", "Let the game play itself automatically. Useful for testing.", 'a', arrrgh::Optional, false);

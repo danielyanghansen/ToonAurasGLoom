@@ -28,4 +28,4 @@ which is equivalent to
 	cd build
 	cmake ..
 	make
-	./glowbox
+	./ToonAuras
