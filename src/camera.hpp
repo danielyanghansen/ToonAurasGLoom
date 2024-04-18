@@ -19,10 +19,11 @@ public:
         direction.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch));
         direction.y = sin(glm::radians(pitch));
         direction.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
-        return 
+        
+        glm::mat4 view = 
             glm::lookAt(position, position + glm::normalize(direction), glm::vec3(0.0f, 1.0f, 0.0f))
-            * glm::translate(glm::mat4(1.0f), -position)
-            * projection
+            * glm::translate(glm::mat4(1.0f), -position);
+        return projection * view;
             ;
     }
 
